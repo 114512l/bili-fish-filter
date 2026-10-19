@@ -1,0 +1,21 @@
+# 打包产物
+*.zip
+*.crx
+*.pem
+
+# 依赖 / 构建
+node_modules/
+dist/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*~
