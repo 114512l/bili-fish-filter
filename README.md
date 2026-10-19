@@ -27,10 +27,21 @@ B站 评论区过滤器。识别疑似 AI 养鱼评论，折叠成「该内容�
 
 ## 安装
 
-1. 把 `bili-fish-filter` 文件夹放到固定位置；
+**先拿到目录**，两种方式任选：
+
+* **下载打包版**：去 [Releases](https://github.com/114512l/bili-fish-filter/releases) 下 `bili-fish-filter-v1.0.0.zip`，解压得到 `bili-fish-filter/` 目录；
+* **用 git**：`git clone https://github.com/114512l/bili-fish-filter.git`。
+
+> 也可以用仓库页的 `Code → Download ZIP`，但解压出来多一层 `bili-fish-filter-main/`。
+
+**再加载**：
+
+1. 把上面那个目录放到固定位置（别放临时目录，移动后要重新加载）；
 2. 浏览器打开 `edge://extensions`（或 `chrome://extensions`），开启「开发者模式」；
-3. 点「加载已解压的扩展程序」，选这个文件夹；
+3. 点「加载已解压的扩展程序」，选**包含 `manifest.json` 的那层目录**，不要选它的上级；
 4. 打开任意 B 站视频页，刷新评论区。
+
+改代码后在扩展页点「刷新」按钮即可生效，不用重新加载。
 
 要求 Chrome / Edge **111+**。
 
